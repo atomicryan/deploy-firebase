@@ -11,4 +11,4 @@ if [ -z "${TARGET}" ]; then
 fi
 
 firebase use ${TARGET}
-firebase deploy --token ${FIREBASE_TOKEN} -P ${TARGET} --only functions 
+firebase deploy --token ${FIREBASE_TOKEN} --only functions 
